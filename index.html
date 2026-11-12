@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>TPS Systems Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Jost:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#F3EFEC; --card:#FFFFFF; --ink:#0A0A0A; --soft:#4A4440; --mute:#7A706B;
+  --accent:#79241F; --coral:#B45B47; --rose:#D7C2C9; --line:rgba(10,10,10,.12); --tint:#F8F1EF;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Jost',system-ui,sans-serif;font-size:17px;line-height:1.6}
+a{color:var(--accent);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{color:var(--coral)}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header.top{background:var(--rose);padding:56px 0 44px}
+h1,h2{font-family:'Instrument Serif',Georgia,serif;font-weight:400;line-height:1.1;margin:0}
+h1{font-size:clamp(2.4rem,6vw,3.6rem)}
+.lede{max-width:62ch;margin:14px 0 0;color:#2C2C2C}
+.updated{margin-top:16px;font-size:.9rem;color:#4a3a3a}
+nav.jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+nav.jump a{background:#fff;color:var(--ink);text-decoration:none;padding:8px 14px;border-radius:999px;font-size:.92rem;border:1px solid rgba(0,0,0,.06)}
+nav.jump a:hover{background:var(--accent);color:#fff}
+section{margin:44px 0}
+h2{font-size:clamp(1.9rem,4vw,2.5rem);margin-bottom:6px}
+.what{color:var(--soft);margin:0 0 18px;max-width:64ch}
+.card{background:var(--card);border-radius:10px;padding:26px 28px;margin-top:16px}
+.card h3{margin:0 0 10px;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--accent)}
+.card p{margin:0 0 10px}
+.card p:last-child{margin-bottom:0}
+ol.steps{margin:0;padding-left:1.3em}
+ol.steps li{margin:4px 0}
+table{width:100%;border-collapse:collapse;font-size:.97rem}
+th,td{text-align:left;vertical-align:top;padding:10px 10px 10px 0;border-top:1px solid var(--line)}
+th{font-weight:600;width:34%}
+tr:first-child th,tr:first-child td{border-top:0}
+.find td:first-child{font-weight:500;width:46%}
+.note{background:var(--tint);border-left:3px solid var(--coral);padding:12px 16px;border-radius:4px;margin-top:14px;font-size:.96rem}
+.ask{color:var(--mute);font-style:italic}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+footer{padding:30px 0 60px;color:var(--mute);font-size:.9rem;border-top:1px solid var(--line);margin-top:56px}
+@media (max-width:720px){
+  body{font-size:16px}
+  .card{padding:20px 18px}
+  .grid2{grid-template-columns:1fr}
+  th,td{display:block;width:100%!important;padding:4px 0}
+  tr{display:block;padding:10px 0;border-top:1px solid var(--line)}
+  tr:first-child{border-top:0}
+  th,td{border:0}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <h1>Where to find things</h1>
+    <p class="lede">A quick map of every system we have built for The Postpartum Suite. For each one it shows what is meant to happen, where the information is kept, and where the emails go. If something here does not match what you see, or a link will not open for you, message TJ.</p>
+    <p class="updated">Prepared by The Founders Frame. Last updated 12 November 2026.</p>
+    <nav class="jump" aria-label="Jump to a system">
+      <a href="#quick">Quick finder</a>
+      <a href="#inboxes">Which inbox gets what</a>
+      <a href="#daily">Daily Care Record</a>
+      <a href="#orientation">Orientation checklist</a>
+      <a href="#clientform">Client Form</a>
+      <a href="#consent">Consent Forms</a>
+      <a href="#treatments">Single Treatments</a>
+      <a href="#gift">The Postpartum Gift</a>
+      <a href="#waitlist">Waitlist</a>
+      <a href="#tracker">Work Tracker</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="quick">
+  <h2>Quick finder</h2>
+  <p class="what">The questions that come up most, and where to look first.</p>
+  <div class="card">
+    <table class="find">
+      <tr><td>A specialist's daily notes, ticks and signatures</td><td>The <a href="https://docs.google.com/spreadsheets/d/1KntlhkdC86MqoZi3r74fctfLMwH9hgsm3GYVG43FNFk" target="_blank" rel="noopener">TPS Log sheet</a>, one tab per client</td></tr>
+      <tr><td>Photos from a client's stay</td><td>The <a href="https://drive.google.com/drive/folders/13I6EkT6rptHId6WwdAfLQs-k6qdOOlZy" target="_blank" rel="noopener">TPS Care Record folder</a> on Google Drive, then the client's folder, then Pictures</td></tr>
+      <tr><td>Adding a specialist or client, pairing them, days off</td><td>The admin pages of the <a href="https://tps-care-record.vercel.app/admin" target="_blank" rel="noopener">Daily Care Record</a></td></tr>
+      <tr><td>A signed orientation visit</td><td>The admin@ inbox, or the "Orientation records" folder and sheet inside the TPS Care Record folder</td></tr>
+      <tr><td>A client's health and contact form</td><td>Email only. Search the inbox that receives forms for "Client information form"</td></tr>
+      <tr><td>A massage consent form</td><td>Email only. Search for "Massage Consent Form" or "Practitioner Review"</td></tr>
+      <tr><td>A single treatment booking</td><td>SimplyBook for the diary, Stripe for the payment and refunds</td></tr>
+      <tr><td>Gift payments and messages</td><td>The Gifts admin sheet, and Stripe for the money</td></tr>
+      <tr><td>Waitlist sign ups</td><td>The waitlist sheet (tab "Signups"), with a copy of each person as a lead in Zoho</td></tr>
+      <tr><td>Whether an email actually went out</td><td>The Resend dashboard. Every system sends its emails through Resend, so it shows what was sent, when, and whether it was delivered</td></tr>
+    </table>
+  </div>
+</section>
+
+<section id="inboxes">
+  <h2>Which inbox gets what</h2>
+  <p class="what">Every email the systems send to the team, and the inbox it lands in.</p>
+  <div class="card">
+    <table>
+      <tr><th>bookings@thepostpartumsuite.com</th><td>New single treatment bookings, cancellations, changes of time, and any "ACTION NEEDED" alert when a cancellation or refund did not finish. Always spell it with the s. Mail sent to booking@ without the s is lost.</td></tr>
+      <tr><th>admin@thepostpartumsuite.com</th><td>A copy of every signed orientation record. Replies from clients about their orientation also come here.</td></tr>
+      <tr><th>info@thepostpartumsuite.com</th><td>Gift receipts are sent from this address and replies come back to it. It also gets an alert if something in the gift system keeps failing, and any data or privacy requests from the website.</td></tr>
+      <tr><th>Every active admin on the Daily Care Record</th><td>The end of stay care summary for each client, with the PDF attached.</td></tr>
+      <tr><th>The forms inbox</th><td>Client Forms and both Consent Forms go to a set list of TPS addresses. <span class="ask">Ask TJ to confirm exactly which inboxes are on that list.</span></td></tr>
+    </table>
+  </div>
+</section>
+
+<section id="daily">
+  <h2>Daily Care Record</h2>
+  <p class="what">The phone app each postpartum specialist uses to record her day of care. It feeds the TPS Log sheet and Drive, and at the end of a stay it sends the client a care summary.</p>
+  <div class="card">
+    <h3>What happens</h3>
+    <ol class="steps">
+      <li>An admin adds the specialist and the client, pairs them, and sends the specialist her personal link.</li>
+      <li>At the end of each shift the specialist opens her link, ticks the tasks done, adds notes and photos, and on signing days (every seventh day and the last day) gets the client to sign.</li>
+      <li>She presses Send. If there is no signal it waits on her phone and sends when it can.</li>
+      <li>The day is saved, copied into the TPS Log sheet as a new column, and the photos go into the client's Drive folder.</li>
+      <li>When the client signs on her last day, a care summary is prepared. It appears under "Needs attention" on the admin Today page.</li>
+      <li>An admin checks it and presses Send. The client, her specialist and every admin get it by email with the PDF.</li>
+    </ol>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Where it is kept</h3>
+      <p><a href="https://docs.google.com/spreadsheets/d/1KntlhkdC86MqoZi3r74fctfLMwH9hgsm3GYVG43FNFk" target="_blank" rel="noopener">TPS Log sheet</a>. One tab per client, one column per day.</p>
+      <p><a href="https://drive.google.com/drive/folders/13I6EkT6rptHId6WwdAfLQs-k6qdOOlZy" target="_blank" rel="noopener">TPS Care Record folder</a>. One folder per client, with a Pictures folder and the summary PDF.</p>
+      <p>Changing the sheet by hand does not change the app. The app is the master copy and will write over that day's column.</p>
+    </div>
+    <div class="card">
+      <h3>Links</h3>
+      <p><a href="https://tps-care-record.vercel.app/admin" target="_blank" rel="noopener">Admin pages</a>: Today, People and Admins. This only opens once you have used your own admin link on that device.</p>
+      <p>Each person's link is private. Never forward one. If a link is lost or shared, open that person's page and press "Make a new link". The old one stops working at once.</p>
+    </div>
+  </div>
+  <div class="card">
+    <h3>If something looks wrong</h3>
+    <p>A day is missing from the sheet: check "Needs attention" on the Today page. The app tries again on its own after the next record and every morning.</p>
+    <p>No care summary was prepared: the client probably did not sign on her last day. Open her page and press "Prepare her care summary now".</p>
+    <p>A specialist is off for a day: use "Not working from today" and "She is back" on her page, so the day numbers stay right. To move a client's last day, use "Change her last day" on the client's page.</p>
+  </div>
+</section>
+
+<section id="orientation">
+  <h2>Orientation checklist</h2>
+  <p class="what">The iPad checklist that a TPS representative and the practitioner go through with a new mother at home before her programme starts.</p>
+  <div class="card">
+    <h3>What happens</h3>
+    <ol class="steps">
+      <li>Open <a href="https://tps-orientation.vercel.app" target="_blank" rel="noopener">the orientation app</a> on the iPad and work through the eleven pages with the client. It saves as you go and works without internet.</li>
+      <li>On the last page the client and the TPS representative sign. Only the client's email is needed to send.</li>
+      <li>Press "Finish and send". A signed PDF is made.</li>
+      <li>The PDF is filed in Drive, a row is added to the records sheet, and the PDF is emailed to the client with admin@ in copy.</li>
+    </ol>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Where it is kept</h3>
+      <p>The sheet "TPS orientation records" (tabs Visits and Notes) and the folder "Orientation records" with the signed PDFs. Both sit with the TPS Care Record files. <span class="ask">Ask TJ for the direct links.</span></p>
+      <p>A copy of every record is in the admin@ inbox.</p>
+    </div>
+    <div class="card">
+      <h3>If something looks wrong</h3>
+      <p>Client did not get her copy: open the Visits tab. If the "emailedAt" box for that visit is empty, the email did not go. Press "Finish and send" again on the same iPad. It only does the missing step, so nothing is doubled.</p>
+      <p>Please do not rename or move the columns in the Visits tab.</p>
+    </div>
+  </div>
+</section>
+
+<section id="clientform">
+  <h2>Client Form</h2>
+  <p class="what">The pre programme form where a mother gives her health, allergy, diet, household and emergency contact details, and signs.</p>
+  <div class="card">
+    <h3>What happens</h3>
+    <ol class="steps">
+      <li>The client fills in the form and signs on screen.</li>
+      <li>On Submit, a signed PDF and a Word copy are made.</li>
+      <li>TPS gets an email with a summary and both files. Pressing reply goes straight to the client. The subject reads "Client information form, First Last".</li>
+      <li>The client gets a thank you email with the same files.</li>
+    </ol>
+    <div class="note">This form is not saved anywhere else. The email is the only record, so please file or keep it. If it is deleted, it cannot be got back.</div>
+  </div>
+</section>
+
+<section id="consent">
+  <h2>Consent Forms</h2>
+  <p class="what">Two online forms that replace the paper massage consent form. Form A is for the client before her appointment. Form B is for the practitioner on the day.</p>
+  <div class="card">
+    <h3>What happens</h3>
+    <ol class="steps">
+      <li>TPS sends the client the Form A link before her appointment.</li>
+      <li>She fills it in and signs. A signed PDF is emailed to TPS and to her, with the subject "Massage Consent Form, client name, date".</li>
+      <li>If she answers yes to the safety check, or says she is pregnant, a red banner sits at the top of the PDF and email. That is the cue for TPS to contact her before the treatment.</li>
+      <li>TPS sends the practitioner the Form B link and the client's Form A.</li>
+      <li>On the day, the practitioner fills in Form B and signs, choosing Proceed, Adapt, Postpone or Decline. It is emailed to TPS and to her, with the subject "Practitioner Review, client name, date".</li>
+    </ol>
+    <div class="note">Like the Client Form, these are kept in email only. Form A and Form B are not joined up by the system. Match them by the client's name and date in the subject line, so the name and date need typing the same way on both.</div>
+  </div>
+</section>
+
+<section id="treatments">
+  <h2>Single Treatments</h2>
+  <p class="what">The booking site at <a href="https://booking.thepostpartumsuite.com" target="_blank" rel="noopener">booking.thepostpartumsuite.com</a>, where a client books and pays for one at home treatment.</p>
+  <div class="card">
+    <h3>What happens</h3>
+    <ol class="steps">
+      <li>The client picks a treatment, a date and a time, and gives her details and home address.</li>
+      <li>She pays by card, or with a Gift Up voucher code, and agrees to the 48 hour cancellation policy.</li>
+      <li>The booking goes into the SimplyBook diary. She gets a confirmation, and bookings@ gets a "New booking" email.</li>
+      <li>The day before, she gets a reminder.</li>
+      <li>Up to 48 hours before, she can cancel for a full refund or move it (up to twice) at <a href="https://booking.thepostpartumsuite.com/manage" target="_blank" rel="noopener">the manage page</a>. Inside 48 hours she needs to email TPS.</li>
+    </ol>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Where it is kept</h3>
+      <p><a href="https://thepostpartumsuite.simplybook.it" target="_blank" rel="noopener">SimplyBook</a> is the diary. Treatments, prices, photos, working hours and days off are changed here and show on the site within the hour.</p>
+      <p>Stripe holds each payment, with the booking details attached. Search Stripe payments to find a booking. Refunds are done in Stripe.</p>
+      <p>Gift Up shows voucher balances and use.</p>
+      <p>When bookings are paused, people join a waiting list on the sheet tab "Single-Treatment Waiting list". <span class="ask">Ask TJ for the link.</span></p>
+    </div>
+    <div class="card">
+      <h3>If something looks wrong</h3>
+      <p>A client says she paid but has no booking: find her payment in Stripe, then check SimplyBook. Book her in by hand or refund her in Stripe.</p>
+      <p>Please do not cancel bookings inside SimplyBook. That does not refund the client, and she still gets a reminder. Use her manage link instead, or refund in Stripe by hand.</p>
+      <p>SimplyBook needs to stay paid up. If it lapses, cards can still be charged but bookings fail.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gift">
+  <h2>The Postpartum Gift</h2>
+  <p class="what">A gift page where friends and family pay towards a mother's postpartum care. Each gift becomes credit she can spend only on TPS services, and she has her own page showing who gave and what they wrote.</p>
+  <div class="card">
+    <h3>What happens</h3>
+    <ol class="steps">
+      <li>A giver opens <a href="https://thepostpartumsuite-gift-care.vercel.app" target="_blank" rel="noopener">the gift page</a>, enters an amount, their name, email and an optional message, and pays through Stripe.</li>
+      <li>Once paid, the giver gets a receipt from info@, and the mother gets a "new gift" email.</li>
+      <li>The gift is added as a row in the Gifts admin sheet.</li>
+      <li>The mother signs in at <a href="https://thepostpartumsuite-gift-care.vercel.app/login" target="_blank" rel="noopener">the sign in page</a> to see her gifts and messages.</li>
+    </ol>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Where it is kept</h3>
+      <p>The sheet "TPS Gifts Admin Mirror", tab Gifts. It is a copy for reading, so changes made in it do not go back into the system. <span class="ask">Ask TJ for the link.</span></p>
+      <p>Stripe holds the money, and refunds are done there.</p>
+    </div>
+    <div class="card">
+      <h3>Still being finished</h3>
+      <p>Spending the credit is not built yet, so any use of a mother's credit is tracked by hand for now.</p>
+      <p>A refund made in Stripe does not yet update the sheet or her page, so mark it in the sheet by hand.</p>
+    </div>
+  </div>
+</section>
+
+<section id="waitlist">
+  <h2>Waitlist</h2>
+  <p class="what">The sign up page at <a href="https://www.thepostpartumsuite.com" target="_blank" rel="noopener">thepostpartumsuite.com</a>, where an expectant mother joins the waiting list.</p>
+  <div class="card">
+    <h3>What happens</h3>
+    <ol class="steps">
+      <li>She gives her name, email, mobile, postcode area, due month and which baby this is, and agrees to the privacy policy.</li>
+      <li>Her details are saved as a row in the waitlist sheet, tab "Signups".</li>
+      <li>The same details are sent to Zoho as a new lead.</li>
+      <li>She sees a thank you message saying her programme details are on their way to her inbox.</li>
+    </ol>
+    <div class="note">The website itself does not send that programme email. It has to come from Zoho, set off by the new lead. If someone says it never arrived, check the automation in Zoho first.</div>
+  </div>
+  <div class="card">
+    <h3>Where it is kept</h3>
+    <p>The waitlist sheet, tab "Signups", is the full record. <span class="ask">Ask TJ for the link.</span> Please do not add, move or rename its columns or the tab.</p>
+    <p>Zoho has a copy of each person as a lead. If someone asks to be removed, delete both the sheet row and the Zoho lead.</p>
+  </div>
+</section>
+
+<section id="tracker">
+  <h2>Work Tracker</h2>
+  <p class="what">Where website requests, progress and hours are logged.</p>
+  <div class="card">
+    <p><a href="https://docs.google.com/spreadsheets/d/1QGGNqfuknl3UzNEuwUhCPPFnAQRlNOzChAlVzfbb2Xw" target="_blank" rel="noopener">TPS Work Tracker</a>. Add new requests on the Requests tab. Red means not started, Amber means built and waiting for your check, and Green means done. Tick the sign off boxes once you are happy.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">Prepared by The Founders Frame for The Postpartum Suite. The links to sheets and folders only open for people they have been shared with. If one will not open for you, message TJ.</div>
+</footer>
+
+</body>
+</html>
